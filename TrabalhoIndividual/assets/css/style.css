@@ -1,0 +1,610 @@
+body {
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.containerheader {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 5rem;
+    margin: auto;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.direita {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    background-color: black;
+}
+
+.esquerda {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 50%;
+}
+
+#titulo {
+    padding-left: 3rem;
+    color: aliceblue;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.tittle {
+    display: flex;
+    padding-left: 15%;
+}
+
+.ancoras {
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    padding-left: 25%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.dropdown {
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content p {
+    padding: 0.5rem;
+    color: rgb(69, 125, 173);
+}
+
+.opcoesancoras {
+    display: inline;
+    padding: 0.8rem;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.redessociais {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.direitaredes {
+    display: flex;
+    width: 15%;
+    margin-top: 0.5rem;
+}
+
+.iconesredes {
+    width: 60%;
+}
+
+.containertitulos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    width: 100%;
+    /* 100vh; ATT */
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.chamada {
+    /* display: flex; ATT */
+    width: 100%;
+    height: 5rem;
+    display: block;
+}
+
+#titulochamada {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin: auto;
+    text-shadow: 2px 0px rgb(182, 169, 169);
+}
+
+.descricaoc1 {
+    /* display: flex; ATT */
+    width: 100%;
+    height: 3rem;
+    display: block;
+}
+
+#titulodescricaoc1 {
+    font-weight: bold;
+    padding-bottom: 5rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin: auto;
+    text-shadow: 2.5px 0px rgb(182, 169, 169);
+}
+
+.sitesdigitado {
+    width: 100%;
+    /* height: 60px; ATT */
+}
+
+#sitestitulo {
+    width: 100%;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    text-shadow: 2px 0px rgb(182, 169, 169);
+    display: block;
+}
+
+.separador {
+    width: 100%;
+    height: auto;
+}
+
+hr {
+    border: black;
+    border-top: 2px solid black;
+    padding-bottom: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    row-gap: 0.5rem;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.card {
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 30rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.foto {
+    display: flex;
+    width: 100%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+}
+
+.titulofoto {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #474350;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-shadow: 2px 0px rgb(0, 0, 0);
+}
+
+.containerbotao {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #926F34;
+}
+
+.botao {
+    display: flex;
+    width: 30%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.89);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.705);
+    cursor: pointer;
+}
+
+botao.link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.titulobotao {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-shadow: 1px 0px #474350;
+}
+
+.sitesdigitado2 {
+    padding-top: 1.5rem;
+    width: 100%;
+    height: auto;
+}
+
+#sitestitulo2 {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    text-shadow: 2px 0px rgb(182, 169, 169);
+}
+
+.separador2 {
+    width: 100%;
+    height: auto;
+}
+
+.newlatter {
+    width: 100%;
+    padding-top: 4rem;
+    height: auto;
+}
+
+.newlatterfont {
+    width: 100%;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    text-shadow: 2px 0px rgb(182, 169, 169);
+}
+
+.formulario {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 75%;
+    height: 50%;
+}
+
+.formulario form {
+    margin: auto;
+    display: flex;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-top: 2rem;
+    flex-direction: column;
+    width: 60%;
+}
+
+.formulario form input[type="email"],
+.formulario form input[type="name"],
+.formulario textarea {
+    font-size: 1rem;
+    padding: 0.3rem;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+
+.formulario form input[type="submit"] {
+    width: 50%;
+    margin: auto;
+    background-color: #000000;
+    padding: 0.5rem;
+    border-radius: 15px;
+    border: 0.20rem solid #000000;
+    font-weight: bold;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.cabecalho {
+    display: flex;
+    background-color: #ffffff;
+    width: 100%;
+    height: 1rem;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 5rem;
+}
+
+.cabfont {
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12.5px;
+}
+
+.cabdir {
+    padding-left: 45%;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 3rem;
+    background-color: rgb(0, 0, 0);
+}
+
+.cabesq {
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 3rem;
+    background-color: rgb(0, 0, 0);
+}
+
+.iconesredes2 {
+    width: 60%;
+}
+
+.desenvolvedor {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.fotodev {
+    width: 50%;
+}
+
+.pedroft {
+    width: 300px;
+    height: auto;
+    border-radius: 2000px;
+}
+
+.devdescricao {
+    display: flex;
+    width: 50%;
+}
+
+.devtexto {
+    padding-left: 1rem;
+    width: 70%;
+    margin: auto;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-shadow: 2px 0px rgb(182, 169, 169);
+}
+
+@media screen and (max-width: 667px) {
+    .desenvolvedor {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        gap: 0.5rem;
+    }
+
+    .devdescricao {
+        padding-top: 1rem;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 464px) {
+    .direitaredes {
+        margin: auto;
+        padding-left: 10rem;
+        padding-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 464px) {
+    .fotodev {
+        width: 80%;
+        height: 50%;
+    }
+
+    .pedroft {
+        width: 250px;
+        height: auto;
+    }
+
+    .devdescricao {
+        width: 80%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 962px) {
+    .direita {
+        display: flex;
+        gap: 15px;
+        width: 50%;
+    }
+}
+
+
+
+@media screen and (max-width: 703px) {
+    .direita {
+        gap: 20px;
+        width: 70%;
+    }
+
+    .esquerda {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 502px) {
+    .direita {
+        gap: 20px;
+        width: 80%;
+    }
+
+    .esquerda {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 439px) {
+    .direita {
+        gap: 20px;
+        width: 80%;
+    }
+
+    .esquerda {
+        width: 20%;
+    }
+
+    .opcoesancoras {
+        width: 20px;
+        height: auto;
+    }
+
+    .tittle {
+        width: 50px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 732px) {
+    .containertitulos {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 971px) {
+    #titulochamada {
+        font-size: 38px;
+    }
+
+    #titulodescricaoc1 {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 556px) {
+    #titulochamada {
+        font-size: 33px;
+    }
+
+    #titulodescricaoc1 {
+        font-size: 22px;
+    }
+
+    #sitestitulo {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 793px) {
+    .direitaredes {
+        width: 25%;
+        gap: 0.5rem;
+    }
+
+    .iconesredes {
+        margin: auto;
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .direitaredes {
+        width: 35%;
+        gap: 0.5rem;
+    }
+
+    .iconesredes {
+        margin: auto;
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 969px) {
+    .container {
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 969px) {
+    .card {
+        width: 15rem;
+        height: 25rem;
+    }
+
+    .concessionaria {
+        width: 240px;
+        height: 240px;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .cabfont {
+        font-size: 10px;
+    }
+
+    .cabesq {
+        height: 3.5rem;
+    }
+
+    .cabdir {
+        height: 3.5rem;
+        margin: auto;
+        align-items: center;
+        padding-left: 20%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .formulario {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    #titulochamada {
+        font-size: 27px;
+    }
+
+    #titulodescricaoc1 {
+        font-size: 22px;
+    }
+
+    #sitestitulo {
+        padding-top: 2rem;
+        font-size: 27px;
+    }
+
+    .pedroft {
+        width: 200px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 439px) {
+    .opcoesancoras {
+        font-size: 15px;
+    }
+}
